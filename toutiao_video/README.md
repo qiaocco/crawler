@@ -5,14 +5,14 @@ toutiao-video-crawler
 
 ## 怎么样方便地讨论交流
 
-* 欢迎在[Github]()上开新的issue;
+* 欢迎在[Github](https://github.com/jasonqiao36/crawler/issues)上开新的issue;
 
 ## 环境安装
 
 配置好你的Python环境,然后
 
 ```bash
-$ git clone 
+$ git clone git@github.com:jasonqiao36/crawler.git
 $ cd crawler/toutiao_video
 $ pip install -r requirements.txt
 ```
@@ -48,3 +48,6 @@ $ pip install -r requirements.txt
 ## 喜欢就打赏吧!
 
 如果您喜欢这个项目, 那就打个赏支持一下作者吧! 非常感谢!
+<p align="center">
+    <img src="./images/wechat.jpg">
+</p>
