@@ -24,7 +24,7 @@ $ pip install -r requirements.txt
 
 ### 编辑sites.txt文件
 
-找到一个文字编辑器,然后打开文件`sites.txt`,把你想要下载的今日头条用户的id编辑进去,以逗号/空格/tab/表格鍵/回车符分隔,可以多行,这个文件看起来是这样的:
+找到一个文字编辑器,然后打开文件`sites.txt`,把你想要下载的今日头条用户的ID编辑进去,以逗号/空格/tab/表格鍵/回车符分隔,可以多行.(如何找用户ID请往下看) 这个文件看起来是这样的:
 
 ```
 104546673921
@@ -36,7 +36,7 @@ $ pip install -r requirements.txt
 
 ### 站点视频的下载
 
-程序运行后,会默认在当前路径下面生成一个跟今日头条用户的id相同的文件夹,
+程序运行后,会默认在当前路径下面生成一个跟今日头条用户的ID相同的文件夹,
 视频都会放在这个文件夹下面.
 
 运行这个脚本,不会重复下载已经下载过的视频,所以不用担心重复下载的问题.同时,多次运行可以
@@ -44,15 +44,18 @@ $ pip install -r requirements.txt
 
 ### 如何找到用户ID
 
+1. 找到用户的首页后，点击右上角的三个点，复制链接.
+2. 把链接粘贴到便签里，找到user_id就是用户的ID. 把ID填到`sites.txt`文件.
+
 <p align="center">
-  <img width="600" src="./images/step1.jpg" >
-  <img width="600" src="./images/step2.jpg" >
+  <img width="300" src="./images/step1.jpg" >
+  <img width="300" src="./images/step2.jpg" >
 </p>
 
 
 ## 喜欢就打赏吧!
 
 如果您喜欢这个项目, 那就打个赏支持一下作者吧! 非常感谢!
-<p width="600" align="center">
-    <img src="./images/wechat.jpg">
+<p align="center">
+    <img width="300" src="./images/wechat.jpg">
 </p>
