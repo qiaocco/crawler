@@ -22,9 +22,7 @@ $ pip install -r requirements.txt
 
 ## 配置和运行
 
-有两种方式来指定你要下载的站点,一是编辑`sites.txt`,二是指定命令行参数.
-
-### 第一种方法:编辑sites.txt文件
+### 编辑sites.txt文件
 
 找到一个文字编辑器,然后打开文件`sites.txt`,把你想要下载的今日头条用户的id编辑进去,以逗号/空格/tab/表格鍵/回车符分隔,可以多行,这个文件看起来是这样的:
 
@@ -44,10 +42,17 @@ $ pip install -r requirements.txt
 运行这个脚本,不会重复下载已经下载过的视频,所以不用担心重复下载的问题.同时,多次运行可以
 帮你找回丢失的或者删除的视频.
 
+### 如何找到用户ID
+
+<p align="center">
+  <img width="600" src="./images/step1.jpg" >
+  <img width="600" src="./images/step2.jpg" >
+</p>
+
 
 ## 喜欢就打赏吧!
 
 如果您喜欢这个项目, 那就打个赏支持一下作者吧! 非常感谢!
-<p align="center">
+<p width="600" align="center">
     <img src="./images/wechat.jpg">
 </p>
