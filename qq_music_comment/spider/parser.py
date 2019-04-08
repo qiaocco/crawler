@@ -1,6 +1,7 @@
 from .utils import get_tree, create_randomString, fetch
 from urllib.parse import quote
 import json
+from .log import crawler
 
 SINGER_LIST_URL = 'https://u.y.qq.com/cgi-bin/musicu.fcg?-=getUCGI6848326043520538&g_tk=5381&loginUin=0&hostUin=0&format=json' \
                   '&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0&' \
@@ -37,6 +38,7 @@ def parse_artist(singer_mid):
 
 
 def parse_song(songmid, songid):
+    crawler.info(songid)
     resp = fetch(COMMENT_URL.format(songid))
     resp_dict = resp.json()
     commentlist = resp_dict['hot_comment']['commentlist']
